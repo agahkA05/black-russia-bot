@@ -20,3 +20,4 @@ echo.
 echo Проверить статус можно на: https://railway.app/dashboard
 echo.
 pause
+

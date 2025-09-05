@@ -1,9 +1,17 @@
 @echo off
-echo 🚀 Быстрое обновление бота...
+echo 🔄 Быстрое обновление бота...
 
+echo 📝 Добавляем изменения в Git...
 git add .
-git commit -m "Auto update - %date% %time%"
+
+echo 💾 Сохраняем изменения...
+git commit -m "Обновление бота: исправлен Railway health check, убрана лишняя информация"
+
+echo 🚀 Отправляем на GitHub...
 git push origin main
 
-echo ✅ Готово! Бот обновится через 1-2 минуты
-timeout /t 3
+echo ✅ Обновление завершено!
+echo 🌐 Railway автоматически обновит бота через несколько минут
+echo 📊 Проверьте статус на https://railway.app
+
+pause
